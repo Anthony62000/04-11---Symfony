@@ -1,5 +1,17 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# controllers:
+#     resource:
+#         path: ../src/Controller/
+#         namespace: App\Controller
+#     type: attribute
+
+index:
+    path: /accueil
+    controller: App\Controller\AccueilController::accueil
+
+index:
+    path: /a-propos
+    controller: App\Controller\AproposController::apropos
+
+index:
+    path: /contact
+    controller: App\Controller\ContactController::contact
